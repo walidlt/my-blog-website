@@ -75,7 +75,7 @@ body {
 
 #home {
   min-height: 80vh;
-  background: linear-gradient(rgba(21, 213, 164, 0.808), rgba(4, 70, 53, 0.822)), url(../../Images/Hero-background.jpg);
+  background: linear-gradient(rgba(21, 213, 164, 0.808), rgba(4, 70, 53, 0.822)), url(https://raw.githubusercontent.com/walidlt/my-web-blog/master/Images/Hero-background.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
