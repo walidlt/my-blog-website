@@ -1,0 +1,262 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 191, 0.25);
+}
+
+.badge {
+  background-color: #15D5A4;
+}
+
+.card {
+  border-color: #d8d8d88a;
+}
+
+.btn-outline-light {
+  letter-spacing: 1px;
+}
+
+.btn-outline-light:hover {
+  color: #15D5A4;
+}
+
+::placeholder {
+  font-size: .8em;
+  opacity: .5;
+}
+
+.btn-link {
+  color: #15D5A4;
+}
+
+.btn-link:hover {
+  color: #059672;
+}
+
+.bg-dark {
+  background: rgba(21, 213, 164, 0.808) !important;
+}
+
+.navbar {
+  margin-top: -73px;
+}
+
+.navbar-brand img {
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.08);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: .85em;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  font-size: .9em;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: white !important;
+}
+
+#home {
+  min-height: 80vh;
+  background: linear-gradient(rgba(21, 213, 164, 0.808), rgba(4, 70, 53, 0.822)), url(../../Images/Hero-background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#home h5 {
+  font-size: 3.2em;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home .content input {
+  width: 80%;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  height: 50px;
+  border: 0px;
+}
+
+#home .content button {
+  border-radius: 7px;
+  height: 50px;
+  width: 15%;
+  letter-spacing: 1px;
+}
+
+#content {
+  width: 70%;
+  float: left;
+  margin-top: 100px;
+}
+
+#content .card {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+#content .card .card-photo {
+  overflow: hidden;
+}
+
+#content .card .card-photo img {
+  max-height: 200px;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+#content .card .card-photo img:hover {
+  transform: scale(1.04);
+}
+
+#content .card .card-body h5 {
+  cursor: pointer;
+}
+
+#content .card .media img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#content .card .media h5 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#content .card .media span {
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+#first-aside {
+  width: 30%;
+  float: right;
+  margin-top: 100px;
+}
+
+#first-aside .card-head {
+  background-color: #15D5A4;
+  height: 60px;
+  color: white;
+}
+
+#first-aside .card-head h5 {
+  font-size: .9em;
+  margin-top: 5px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#first-aside .card-body {
+  overflow-y: hidden;
+  height: 600px;
+}
+
+#first-aside .card-body li {
+  font-size: .85em;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#second-aside {
+  width: 30%;
+  float: right;
+  margin-top: 100px;
+}
+
+#second-aside .card-head {
+  background-color: #15D5A4;
+  height: 60px;
+  color: white;
+}
+
+#second-aside .card-head h5 {
+  font-size: .9em;
+  margin-top: 5px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#second-aside .card-body {
+  overflow-y: hidden;
+  height: 600px;
+}
+
+#second-aside .card-body li {
+  font-size: .85em;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #00ad82;
+  height: 60px;
+  margin-top: 200px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #home h5 {
+    font-size: 2.5em;
+  }
+  #home input {
+    width: 100% !important;
+    margin-top: 50px !important;
+    margin-bottom: 5px !important;
+  }
+  #home button {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  #content {
+    width: 100%;
+    float: none;
+  }
+  #first-aside {
+    width: 100%;
+    float: none;
+  }
+  #second-aside {
+    width: 100%;
+    float: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+$mainColor: #0092DF;
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:focus{
+
+    
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 191, 0.25);
+}
+.badge{
+
+    background-color: #15D5A4;
+}
+
+.card{
+
+    border-color: #d8d8d88a;
+}
+
+.btn-outline-light{
+
+    letter-spacing: 1px;
+    &:hover{
+
+        color: #15D5A4;
+    }
+}
+
+::placeholder{
+
+    font-size: .8em;
+    opacity: .5;
+}
+
+.btn-link{
+
+    color: #15D5A4;
+
+    &:hover{
+
+        color: #059672;
+    }
+}
